@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*============================================
+             Nav section
+===============================================*/
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: orangered;
+}
+.nav__logo {
+    font-size: 20px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+.nav__group {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav__item {
+    margin: 0px 15px;
+}
+.nav__link {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*============================================
+             Header section
+===============================================*/
+.container {
+    max-width: 90%;
+    margin: 0px auto;
+}
+.showcase {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+}
+.showcase__content {
+    width: 50%;
+}
+.showcase__title {
+    font-size: 40px;
+    font-weight: 700;
+}
+.showcase__orange {
+    color: orange;
+}
+.showcase__img {
+    width: 100%;
+}
+.showcase__desc {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.btn {
+    background-image: linear-gradient(to left ,orangered,orange);
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*============================================
+            About section
+===============================================*/
+#aboutMe{
+    padding: 50px 0px;
+    background-image: url("./images/shape.jpg");
+    background-position: left;
+    background-size: cover;
+
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    
+}
+.about__content {
+    width: 50%;
+}
+.about__img {
+    width: 400px;
+    height: 500px;
+}
+.about__title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    color: orangered;
+    border-bottom: 3px solid orangered;
+    display: inline-block;
+}
+.about__dese {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+/*============================================
+           Recepi section
+===============================================*/
+#recipes{
+    padding: 80px 0px;
+}
+
+.recipes__title {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    color: orangered;
+}
+.Recipes__dese {
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 30%;
+    box-shadow: 2px 3px 20px 5px lightgray;
+    border-radius: 15px;
+    padding:15px;
+    margin-top: 20px;
+}
+.card__img {
+    width: 100%;
+}
+.card__title {
+    font-size: 25px;
+    font-weight: 700;
+    padding:20px 0px;
+}
+.card__desc {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/*============================================
+          Soceile Followrs section
+===============================================*/
+#specialMaile {
+    margin-bottom: 150px;
+}
+
+
+.special {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+    padding: 100px 0px;
+}
+.maile {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 3px 2px 20px 10px lightgray;
+    border-radius: 15px;
+
+}
+.maile__total__price {
+    border-top:1px dotted orangered ;
+    margin-top: 20px;
+    font-size: 25px;
+    color: orangered;
+    margin-bottom: 10px;
+}
+.maile__img {
+    width: 100%;
+    border-radius: 10px;
+}
+.maile__dece {
+    padding: 8px 0px;
+    font-size: 15px;
+}
+
+
+/*============================================
+          Soceile Followrs section
+===============================================*/
+#follow{
+    padding: 100px 0px;
+    background-image: url("./images/7.png");
+  
+   
+}
+.followers {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0px;
+}
+.followers__content {
+    width: 30%;
+}
+.followers__number {
+    font-size: 40px;
+    padding: 10px;
+    color: orangered;
+}
+.followers__title {
+    font-size: 18px;
+}
+
+
+/*============================================
+          Footer section
+===============================================*/
+
+.footer {
+    padding: 80px 0px;
+    background: black;
+}
+.footer__content {
+    text-align: center;
+    color: darkgray;
+}
+.footer__title {
+    padding: 30px 0px;
+}
+.footer__text {
+    font-size: 15px;
+}
